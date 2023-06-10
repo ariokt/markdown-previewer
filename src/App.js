@@ -65,7 +65,7 @@ export default function MarkdownPreviewer() {
 
   return (
     <div className="App">
-      <div className="content-preview p-8 mx-auto">
+      <div className="content-preview md:w-8/12 p-8 mx-auto">
         <TextEditor data={data} setData={setData} />
         <div id="preview">
           <Markdown
